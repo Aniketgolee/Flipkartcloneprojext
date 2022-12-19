@@ -50,7 +50,7 @@ nav ul li a:hover {
 }
 
 .container {
-  min-height: calc(100vh - 70px - 70px);
+  min-height: calc(300vh);
 }
 .slider {
   margin: 13px auto 25px auto;
@@ -71,11 +71,7 @@ nav ul li a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color:white
-  padding: 8px;
-  border-radius: 4px;
-  margin: -2px;
-  width: 100%;
+  background-color: white;
 }
 .card__heading h2 {
   font-weight: normal;
@@ -103,10 +99,84 @@ nav ul li a:hover {
   align-items: center;
   justify-content: space-between;
 }
-
-.header {
+.big-discount-img {
+  margin-top: 34px;
+  display: flex;
+  justify-content: space-between;
+}
+.mat-discount {
+  width: 300px;
+  height: 180px;
+}
+.gros-discount {
+  width: 300px;
+  height: 180px;
+}
+.shop-now {
+  width: 300px;
+  height: 180px;
+}
+.parent-element {
+  display: flex;
+  margin-top: 34px;
+  background-color: white;
+  width: 100;
+  height: 300px;
+  border: 4px solid green;
+  padding: 50px;
+}
+.child-element {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 14px;
+  width: 150px;
+  height: 95%;
+  background-color: rgb(243, 235, 235);
+}
+.flexbox-container {
+  display: flex;
+}
+.flexbox-item {
+  margin: 10px;
+  width: 200px;
+  border: 3px solid white;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 black;
+  transition: 0.3s;
+  width: 19%;
+}
+.flexbox-item-1 {
+  height: 350px;
+  line-height: 300px;
+}
+.offers {
+  font-weight: bolder;
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  padding-top: 40px;
+  font-size: medium;
+}
+.flexbox-item img {
+  height: 200px;
+}
+.flexbox-item-2 {
+  height: 350px;
+}
+.flexbox-item-3 {
+  height: 350px;
+}
+.flexbox-item-4 {
+  height: 350px;
+}
+.flexbox-item-5 {
+  height: 350px;
+}
+/* .header {
   width: 100%;
 }
 .text-center {
   width: 100%;
-}
+} */
