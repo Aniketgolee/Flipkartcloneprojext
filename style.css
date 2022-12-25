@@ -91,6 +91,14 @@ nav ul li a:hover {
   transition: 0.3s;
   width: 19%;
 }
+@media (max-width: 768px) {
+  .box-image {
+    width: 16.66%;
+  }
+  .flex {
+    flex-direction: column;
+  }
+}
 .box {
   padding: 4px 28px;
 }
@@ -164,6 +172,7 @@ nav ul li a:hover {
 }
 .flexbox-item-2 {
   height: 350px;
+  row-gap: 0;
 }
 .flexbox-item-3 {
   height: 350px;
@@ -174,9 +183,54 @@ nav ul li a:hover {
 .flexbox-item-5 {
   height: 350px;
 }
-/* .header {
-  width: 100%;
+.grid-container {
+  margin: 10px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 50px;
+  column-gap: 50px;
+  background-color: chocolate;
 }
-.text-center {
-  width: 100%;
-} */
+.grid-element-1 {
+  grid-column: 1 / span 2;
+  justify-self: center;
+  /* margin-bottom: 0px; */
+}
+.grid-element-2 {
+  text-align: center;
+
+  align-self: center;
+}
+.grid-element-3 {
+  background-color: bisque;
+  height: 250px;
+  width: 250px;
+}
+.grid-element-4 {
+  text-align: center;
+  align-self: center;
+}
+.grid-element-5 {
+  background-color: bisque;
+  height: 250px;
+  width: 250px;
+}
+.grid-element-6 {
+  text-align: center;
+  align-self: center;
+}
+.grid-element-8 {
+  text-align: center;
+  align-self: center;
+}
+.grid-element-9 {
+  background-color: bisque;
+  height: 250px;
+  width: 250px;
+}
+.footer-container {
+  background-color: blue;
+  height: 60px;
+  text-align: center;
+  font-size: 35px;
+}
